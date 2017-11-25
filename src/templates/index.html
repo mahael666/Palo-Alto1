@@ -1,0 +1,43 @@
+
+{% extends "layout.html" %}
+
+{% block main %}
+    <main class="profile">
+        <div class="profile_text"> Profile</div>
+        <section class="profile_section">
+            <form name="palo-alto" accept-charset="unf-8" autocomplete="on">
+                <p>
+                    <label for="first-name">First Name</label><br>
+                    <input class="profile_section_form" type="text" name="name" id="first-name" placeholder="Name" required>
+                </p>
+                <p>
+                    <label for="second-name">Second Name</label><br>
+                    <input class="profile_section_form" type="text" name="surname" id="second-name" placeholder="Surname" required >
+                </p>
+                <p>
+                    <label for="e-mail">E-mail</label><br>
+                    <input class="profile_section_form" type="text" name="mail" id="e-mail" placeholder="E-Mail@gmail.com" required >
+                </p>
+                <p>
+                    <label for="phone">Phone</label><br>
+                    <input class="profile_section_form" type="text" name="telephone_number" id="phone" placeholder=" +_(___)___-__-__" required>
+                </p>
+                <p>
+                    <label for="date">Date of Birth</label><br>
+                    <input class="profile_section_form" type="date" name="date_of_birth" id="date" placeholder="DD/MM/YYYY" required>
+                </p>
+                <div class ="gender">Gender traits</div>
+                <p>
+                    <input class="profile_section_gender" type="radio" value="male" name="gender" id="male" checked>
+                    <label for="female"> Male
+                    </label><br>
+                    <input class="profile_section_gender" type="radio" value="female" name="gender" id="female" >
+                    <label for="female"> Female
+                    </label>
+                </p>
+                <input class="profile_section_submit" type="submit" value="SUBMIT" >
+
+            </form>
+        </section>
+    </main>
+{% endblock %}
