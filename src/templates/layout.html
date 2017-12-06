@@ -3,19 +3,41 @@
 <html>
 	<head>
 		<meta charset = "utf-8" />
-		<title>Palo Alto</title>
+		<title>Palo Alto</title>	
+        <meta name="keywords" content="Palo Alto" />
+        <meta name="description" content=" Palo Alto">
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./style/normalize.css">
     	<link rel = "stylesheet" type = "text/css" href = "./styles/style.css"/>
 	</head>
 	<body>
-		 <header class="header">
-        <span class="header__text">Palo-Alto</span>
-    </header>
+		<div class="pg">
+            <header class="header">
+                <h1 class="header-logo">Palo Alto</h1>
+                <div class="header-menu">
+                <span class="haeder-menu_home">HOME</span>
+                <span class="header-menu_profile">PROFILE</span>
+                <img class="header-img" src="/images/search.png">
+            </div>
+            </header>
 
-	    	{% block cv %}
-    		{% endblock %}
+    {% block main %}
+     <footer class="footer">
+                <div class="footer_logo">Palo Alto</div>
+                <div class="footer-menu">
+                <span class="footer-menu__home">HOME</span>
+                <span class="footer-menu__profile">PROFILE</span>
+                <img class="footer-menu__img" src="img/Search.svg">
+                </div>
+                <div class="footer-content">
+                <div class="footer-doc">©2015- Palo Alto.All Rights Reserved. Design &amp; Developed by</div>
+                <div class="footer-developer">PixelBuddha Team</div>
+            </div>
+   <div class="icon">
+            <img class="icon" src="images/networks.png">
+        </div>
+               </footer>
+        </div>
 
-		<footer class = "footer">
-			<div class = "footer__title">Palo Alto</div>
-		</footer>
 	</body>
 </html>
