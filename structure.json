@@ -1,0 +1,36 @@
+{
+    "article": 
+    [
+        {
+            "pg-profile_tag": "i do travel",
+            "pg-profile_date": "Sep 20",
+            "pg-profile_title": "No difference how many peaks you reach if there was no pleasure in the climb.",
+            "pg-profile_text": 
+                [
+                    {   
+                        "text": "Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum urna. Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus. Sed ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc. Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue."
+                    }
+                ],
+        }, 
+        {
+            "image": {
+                "image": "rock.jpg",
+            },
+            "pg-profile_tag": "i do observe",
+            "pg-profile_date": "Sep 18",
+            "pg-profile_title": "You know, I'd rather argue with you, then laugh with anyone else.",
+            "pg-profile-post2_preface": 
+                [
+                    {
+                        "text": "Curabitur luctus placerat lorem id eleifend. Nulla ac lacus finibus, tempor velit hendrerit, vulputate lacus. Nunc fermentum nunc sem, ac eleifend tellus cursus nec. Donec a euismod est, vitae accumsan purus. Proin aliquet ex massa, ac finibus magna commodo vitae."
+                    },
+                    {   "pg-profile_text": "default",
+                        "text": "Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum urna. Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, maximus metus. Sed ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc. Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue."
+                    },
+                    {
+                        "pg-profile_text": "default",
+                        "text": "Sed sagittis commodo dolor. Vivamus elementum sem sed sapien bibendum viverra. Curabitur semper scelerisque turpis eu ullamcorper. Morbi tincidunt auctor orci id consequat. Nulla odio mi, iaculis id congue quis, euismod id nisi. In varius congue diam, et viverra lorem bibendum ut."
+                    }         
+        
+    ]
+}

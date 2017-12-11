@@ -219,3 +219,43 @@
     padding-bottom: 70px;
     padding-top: 40px;
 }
+@media (max-width: 1024px){
+.pg{
+width: 720px;
+padding : 40 px;
+margin-bottom: 20px;
+}
+.pg-profile-post1{
+margin:auto;
+padding:0;
+}
+.pg-profile-post2{
+margin:auto;
+padding:0;
+}
+}
+@media (max-width: 768px){
+.pg{
+width: 400px;
+padding:23px;
+margin-bottom:20px;
+}
+.pg-profile-post1{
+width:350px;
+}
+.pg-profile-post2{
+width:350px;
+}
+}
+@media ( max-width: 320px){
+.pg{
+width:280px;
+}
+.pg-profile-post1{
+width: 230px;
+}
+.pg-profile-post2{
+width: 230px:
+}
+}
+

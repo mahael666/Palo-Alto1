@@ -100,3 +100,27 @@ body {
     color: #4a569a;
 
 }
+@media (max-width: 1024px){
+.cv{
+width: 720px;
+padding:40px;
+margin-bottom: 20px;
+}
+.profile{
+width:420px;
+}
+}
+@media (max-width: 768px){
+.cv{
+width: 400px;
+padding: 23px;
+margin-bottom: 20px;
+}
+.profile{
+width:230px;
+}
+.profile_text{
+width: 230-30px;
+height: 56px;
+}
+}

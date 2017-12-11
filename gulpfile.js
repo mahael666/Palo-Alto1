@@ -7,9 +7,11 @@ var browserSync = require('browser-sync').create();
 var path = {
     css:  'src/styles/*.scss',
     html: 'src/templates/*.html',
+    images:'src/images/*.*',
     dist: {
       css:  'dist/styles/',
-      html: 'dist/'
+      html: 'dist/',
+      images:'dist/images/'
     }
 };
 
@@ -27,8 +29,14 @@ gulp.task('html', function () {
     .pipe(nunjucks.compile())
     .pipe(gulp.dest(path.dist.html));
 });
+gulp.task('images', function () {
+  return gulp.src(path.images)
+    .pipe(gulp.dest(path.dist.images));
+});
 
-gulp.task('build', ['html', 'css']);
+
+gulp.task('build', ['html', 'css','images']);
+
 
 gulp.task('watch', function () {
   gulp.watch(path.css, ['css']);
