@@ -1,22 +1,31 @@
 {
-  "name": "palo-alto1",
+  "name": "frontend-2017-project-build",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An example of a simple front-end web application.",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mahael666/Palo-Alto1.git"
+    "url": "git+https://github.com/sadullaeva/frontend-2017-project-build.git"
   },
-  "author": "",
+  "author": "Marina Sadullaeva",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mahael666/Palo-Alto1/issues"
+    "url": "https://github.com/sadullaeva/frontend-2017-project-build/issues"
   },
-  "homepage": "https://github.com/mahael666/Palo-Alto1#readme",
+  "homepage": "https://github.com/sadullaeva/frontend-2017-project-build#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-wrap": "^0.13.0",
+    "handlebars": "^4.0.11"
   }
 }

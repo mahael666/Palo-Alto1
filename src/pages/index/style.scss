@@ -1,0 +1,125 @@
+
+.pg{
+    font-family: 'Lato', sans-serif;
+    width: 1400px;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0 100px;
+    background: #ffffff;
+    padding-bottom: 105px;
+    margin-top: -44px;
+}
+.pg-profile-post1{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+    width: 952px;
+    height: 587px;
+    margin-left: 98px;
+    margin-right: 98px;
+}
+.pg-profile-tag_position{
+    position: static;
+    font-size: 14px;
+    margin-left: 6px;
+    font-weight: 700;
+    font-family: Lato;
+    padding-top: 0px;
+    margin-top: 7px;
+    color:  #ffffff;
+}
+.pg-profile_tag{
+    display: inline-block;
+    background-color:  #5c6bc0;
+    width: 100px;
+    height: 32px;
+    margin-left: 880px;
+    margin-top: 20px;
+}
+.pg-profile_date{
+    font-family: Lato;
+    color: #bdbdbd;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+}
+.pg-profile-title{
+    font-family: Lato;
+    color: #000000;
+    font-size: 46px;
+    margin-top: -10px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    font-weight: 700;
+
+}
+.pg-separator{
+    background-color: #eeeeee;
+    width: 756px;
+    height: 2px;
+}
+.pg-profile_text{
+    font-family: Lato;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 55px;
+}
+.pg-profile_hashtag{
+    position: absolute;
+    font-size: 15px;
+    color: #d1d1d1;
+    bottom: 0;
+    font-weight: 400;
+    right: -55px;
+    margin: 80px;
+    line-height: 15px;
+}
+.pg.-profile_bottom{
+    position: relative;
+    padding-bottom: 80px
+}
+.pg-profile_more { 
+    display: inline-block;  
+    font-size: 24px; 
+    font-weight: 600; 
+    color: #5c6bc0; 
+    background: #fff; 
+    border: #fff; 
+    cursor: pointer; 
+    border: 2px solid transparent; 
+} 
+#more { 
+    background: #fff; 
+} 
+#more:hover { 
+    border-color: #f1f1f1; 
+} 
+#more:active { 
+    border: 2px solid #7d89cd; 
+}
+.pg-profile-post2{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+    width: 952px;
+    height: 587px;
+    margin-left: 98px;
+    margin-right: 98px;
+}
+.pg-profile-post2_img{
+    width: 952px;
+    height: 533px;
+}
+.pg-profile-post2_preface{
+    font-size: 25px;
+    color: #7f7f7f;
+    font-family: Lato;
+    font-style: italic;
+    line-height: 38px;
+}
+
+
+

@@ -1,0 +1,41 @@
+.header{
+    width: 952px;
+    height: 33px;
+    margin-bottom: 90px;
+    padding-top: 75px;
+    margin-left: 123px;
+}
+.header-logo{
+    font-family: Lato;
+    color:  #333333;
+    font-size: 42px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: -45px;
+}
+.header-menu{
+    display: inline-block;
+    margin-left: 68%;
+}
+.header-menu_home{
+    padding-right: 35px;
+    font-family: Lato;
+    font-size: 16px;
+    color:  #bdbdbd;
+    font-weight: 700;
+}
+.header-menu_profile{
+    font-family: Lato;
+    padding-right: 30px;
+    font-size: 16px;
+    color:  #333333;
+    font-weight: 700;
+    
+}
+.header-img{
+    background-color: #333333;
+    width: 16px;
+    height: 16px;
+}
